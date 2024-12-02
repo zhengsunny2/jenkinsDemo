@@ -4,7 +4,7 @@ const { Builder, By } = require('selenium-webdriver');
   let driver = await new Builder().forBrowser('chrome').build();
 
   try {
-    await driver.get('http://localhost:8080');
+    await driver.get('http://localhost:5500');
 
     let n1 = await driver.findElement(By.id('number1'));
     let n2 = await driver.findElement(By.id('number2'));

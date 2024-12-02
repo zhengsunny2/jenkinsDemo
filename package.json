@@ -9,6 +9,7 @@
     "immediate": "^3.0.6",
     "inherits": "^2.0.4",
     "isarray": "^1.0.0",
+    "jenkinsdockernodejs": "file:",
     "jszip": "^3.10.1",
     "lie": "^3.3.0",
     "pako": "^1.0.11",
